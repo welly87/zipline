@@ -78,3 +78,7 @@ TAGS
 .gdb_history
 
 *.dSYM/
+zipline/examples/results.pickle
+src/pip-delete-this-directory.txt
+.vscode/settings.json
+=1.5.3

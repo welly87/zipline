@@ -31,7 +31,7 @@ def get_benchmark_returns(symbol):
     """
 
     # TODO need to change the path
-    df = pd.read_csv("/Users/wellytambunan/Repos/zipline/zipline/examples/SPY.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/welly87/zipline/master/zipline/examples/SPY.csv")
 
     df.index = pd.DatetimeIndex(df['Date'])
     df = df['Close']

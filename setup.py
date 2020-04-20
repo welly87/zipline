@@ -258,9 +258,9 @@ conditional_arguments = {
 }
 
 setup(
-    name='zipline',
-    url="http://zipline.io",
-    version=versioneer.get_version(),
+    name='hedgeq',
+    url="http://hedgeq.io",
+    version="2.0.0",
     cmdclass=LazyBuildExtCommandClass(versioneer.get_cmdclass()),
     description='A backtester for financial algorithms.',
     entry_points={
@@ -269,7 +269,7 @@ setup(
         ],
     },
     author='Quantopian Inc.',
-    author_email='opensource@quantopian.com',
+    author_email='welly@hedgeq.com',
     packages=find_packages(include=['zipline', 'zipline.*']),
     ext_modules=ext_modules,
     include_package_data=True,
